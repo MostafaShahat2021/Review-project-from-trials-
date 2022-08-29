@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Microverse/freeCodeCamp Survey Form</title>
+</head>
+
+<body>
+  
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+
+  <P id="description">Thank you for taking the time to help us improve the platform</P>
+  <form id="survey-form">
+    <div id="inputContainer">
+    <label id="name-label" for="">Name</label><br/>
+    <input class="label1" id="name" type="text" required placeholder="Enter your name" value="Enter your name"><br />
+    <label id="email-label" for="">E-mail</label><br />
+    <input class="label1" id="email" type="email" required placeholder="Enter your Email" value="Enter your Email"><br />
+
+    <label id="number-label" for="">Age (optional)</label><br />
+    <input class="label1" id="number" type="number" min="10" max="99" placeholder="select your age" value="10"><br />   </div>
+    <select name="" id="dropdown">
+      <option>select current role</option>
+      <option>student</option>
+      <option>Full Time Jop</option>
+      <option>Full Time Learner</option>
+      <option>Other</option>
+    </select><br>
+
+    <label  class="label1"for="">Would you recommend freeCodeCamp to a friend?</label><br>
+    <input class="label1" type="radio" name="recommend " value="Definitely">Definitely<br>
+    <input class="label1" type="radio" name="recommend " value="Maybe">Maybe<br>
+    <input class="label1" type="radio" name="recommend " value="Not sure">Not sure<br>
+
+    <label  for=""> What would you like to see improved? (Check all that apply) </label><br>
+    <input class="label1" type="checkbox" id="" value="Front-end Projects">
+    <span>Front-end Projects</span><br>
+    <input type="checkbox" id="" value="Back-end Projects">
+    <span>Back-end Projects</span><br>
+    <input class="label1" type="checkbox" id="" value="Data Visualization">
+    <span>Data Visualization</span><br>
+
+    <label  class="label1" for="">Any comments or suggestions?</label><br>
+    <textarea class="label1"id="txtid" name="txtname" rows="4" cols="50" maxlength="200">
+            </textarea><br>
+    <input type="submit" name="" id="submit" value="Submit">
+  </form>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
